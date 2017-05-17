@@ -14,7 +14,7 @@ for example, Information System for better workplace.
 <h4>Share the intellectual property , throught the online, internet.</h4>
 <br/>
 
-<h4>Use way, in local:(Now not local possibly not.I going to fix that, until 5/16. Wait please.)</h4>
+<h4>Use way, in local:</h4>
 <ul>
 <li>1. git clone download</li>
 <li>2. xampp install</li>
@@ -68,3 +68,5 @@ for example, Information System for better workplace.
 <h4>caution: use way, on web</h4>
 <p>Please, reference, ISO 27001 or https use.</p>
 <p>Personal information, be cafully handling on website(legal way(recommended), if use commerce this(https://github.com/ee32320/InformationSystem), so need certification website. Likely,  ISO 27001.</p>
+
+<h2>Thank you, for watching.</h2>
