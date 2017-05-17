@@ -6,7 +6,7 @@
  <p>Reference, this blog article</p>
  <p><a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
  <br/>
- <p>system/libraries/Session/Session.php -> make, //. </p>
+ <h4>system/libraries/Session/Session.php -> make, //. </h4>
  <p>//     session_start();  //140 line.</p>
  <p></p>
 <p> // Security is king                 //312 line.</p>
@@ -17,7 +17,7 @@
 <p>//    ini_set('session.hash_function', 1);</p>
 <p>//    ini_set('session.hash_bits_per_character', 4);</p>
 <br/>
- <p>/index.php -> add write(anyline),  session_start();</p>
+ <h4>/index.php -> add write(anyline),  session_start();</h4>
  
  <br/>
  <h3>make session, database for example SQL-> MySql.</h3>
@@ -30,7 +30,7 @@
 <p>$config['sess_time_to_update'] = 300;</p>
 <p>$config['sess_regenerate_destroy'] = FALSE;</p>
 <br/>
-<p>make a table</p>
+<h4>make a table</h4>
 <p>CREATE TABLE IF NOT EXISTS `ci_sessions` (</p>
 <p>        `id` varchar(40) NOT NULL,</p>
 <p>        `ip_address` varchar(45) NOT NULL,</p>
@@ -38,6 +38,7 @@
 <p>        `data` blob NOT NULL,</p>
 <p>        PRIMARY KEY (id),</p>
 <p>);</p>
+<h4>About, session. codeigniter menual reference:<a href="http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html">http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html</a></h4>
 <br/> 
 <h3> user_info table, database database for example SQL-> MySql</h3>
 <p>CREATE TABLE `user_info` (</p>
