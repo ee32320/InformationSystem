@@ -16,7 +16,7 @@
 <h4>Check a file. /index.php -> add writting(anyline)-> session_start();</h4>
  <p>Reference, this blog article, Link : <a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
  <br/>
- <h3>2. make session, database for example SQL-> MySql.</h3>
+ <h3>2. Check session file and make a session table.</h3>
  <h4>Check a file. /application/config/config.php</h4>
 <p> $config['sess_driver'] = 'database';</p>
 <p>$config['sess_cookie_name'] = 'ci_session';</p>
@@ -26,7 +26,7 @@
 <p>$config['sess_time_to_update'] = 300;</p>
 <p>$config['sess_regenerate_destroy'] = FALSE;</p>
 <br/>
-<h4>Make a table</h4>
+<h4>Create a ci_sessions table, database for example SQL-> MySql</h4>
 <p>CREATE TABLE IF NOT EXISTS `ci_sessions` (</p>
 <p>        `id` varchar(40) NOT NULL,</p>
 <p>        `ip_address` varchar(45) NOT NULL,</p>
@@ -36,7 +36,7 @@
 <p>);</p>
 <h4>About, session. codeigniter menual reference : <a href="http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html">http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html</a></h4>
 <br/> 
-<h3>3. user_info table, database database for example SQL-> MySql</h3>
+<h3>3. Create user_info table, database for example SQL-> MySql</h3>
 <p>CREATE TABLE `user_info` (</p>
 <p>  `user_id` int(20) NOT NULL AUTO_INCREMENT,</p>
 <p>  `user_name` varchar(20) DEFAULT NULL,</p>
