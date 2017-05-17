@@ -2,7 +2,7 @@
 
  <h3>1. Session problem, fix. May use php version 7.1 up.</h3>
  <p>If use Php version 7.1, Need change code, at codeIgniter file.(session breaking problem.)</p>
- <h4>system/libraries/Session/Session.php -> make, //. </h4>
+ <h4>Check a file. system/libraries/Session/Session.php.-> make, // </h4>
  <p>//     session_start();  //140 line.</p>
  <p></p>
 <p> // Security is king                 //312 line.</p>
@@ -13,7 +13,7 @@
 <p>//    ini_set('session.hash_function', 1);</p>
 <p>//    ini_set('session.hash_bits_per_character', 4);</p>
 <br/>
- <h4>/index.php -> add write(anyline),  session_start();</h4>
+<h4>Check a file. /index.php -> add writting(anyline)-> session_start();</h4>
  <p>Reference, this blog article, Link : <a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
  <br/>
  <h3>2. make session, database for example SQL-> MySql.</h3>
