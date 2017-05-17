@@ -2,7 +2,6 @@
 
  <h3>1. Session problem, fix. May use php version 7.1 up.</h3>
  <p>If use Php version 7.1, Need change code, at codeIgniter file.(session breaking problem.)</p>
-
  <br/>
  <h4>system/libraries/Session/Session.php -> make, //. </h4>
  <p>//     session_start();  //140 line.</p>
