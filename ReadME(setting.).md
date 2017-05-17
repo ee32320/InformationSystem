@@ -16,7 +16,7 @@
 <p>//    ini_set('session.use_only_cookies', 1);</p>
 <p>//    ini_set('session.hash_function', 1);</p>
 <p>//    ini_set('session.hash_bits_per_character', 4);</p>
-<p></p>
+<br/>
  <p>/index.php -> add write(anyline),  session_start();</p>
  
  <br/>
@@ -53,7 +53,7 @@
 <p>) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;</p>
 <br/>
 
-<p>Thank you for watching, readme file.</p>
+<h3>Thank you for watching, readme file.</h3>
 
  
  
