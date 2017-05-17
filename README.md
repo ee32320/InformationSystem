@@ -26,6 +26,7 @@ for example, Information System for better workplace.
 <p>If use github, make a folder and command line input: </p>
 <p>git clone https://github.com/ee32320/InformationSystem.git</p>
 <p>then, [folder]/InformationSystem, downloaded.</p>
+<p> or, clone or download button click, download Zip, and descomplessing.</p>
 <br/>
 <h4>2. xampp install</h4>
 <p>Download file and install. <a href="https://www.apachefriends.org/index.html">XAMPP</a></p>
