@@ -3,7 +3,7 @@
  <h3>session problem, fix. May use php version 7.1 up.</h3>
  <p>If use Php version 7.1, Need change code, at codeIgniter file.(session breaking problem.)</p>
  <br/>
- <p>Reference, this blog article, Link:<a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
+ <p>Reference, this blog article, Link : <a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
 
  <br/>
  <h4>system/libraries/Session/Session.php -> make, //. </h4>
