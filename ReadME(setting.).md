@@ -1,6 +1,6 @@
 <h1>Setting.</h1>
 
- <h3>session problem, fix. May use php version 7.1 up.</h3>
+ <h3>1. session problem, fix. May use php version 7.1 up.</h3>
  <p>If use Php version 7.1, Need change code, at codeIgniter file.(session breaking problem.)</p>
  <p>Reference, this blog article, Link : <a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
  <br/>
@@ -18,7 +18,7 @@
  <h4>/index.php -> add write(anyline),  session_start();</h4>
  
  <br/>
- <h3>make session, database for example SQL-> MySql.</h3>
+ <h3>2. make session, database for example SQL-> MySql.</h3>
  <p> /application/config/config.php</p>
 <p> $config['sess_driver'] = 'database';</p>
 <p>$config['sess_cookie_name'] = 'ci_session';</p>
@@ -38,7 +38,7 @@
 <p>);</p>
 <h4>About, session. codeigniter menual reference:<a href="http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html">http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html</a></h4>
 <br/> 
-<h3> user_info table, database database for example SQL-> MySql</h3>
+<h3>3. user_info table, database database for example SQL-> MySql</h3>
 <p>CREATE TABLE `user_info` (</p>
 <p>  `user_id` int(20) NOT NULL AUTO_INCREMENT,</p>
 <p>  `user_name` varchar(20) DEFAULT NULL,</p>
