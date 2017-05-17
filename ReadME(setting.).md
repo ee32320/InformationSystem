@@ -1,8 +1,8 @@
 <h1>Setting.</h1>
 
- <h3>1. session problem, fix. May use php version 7.1 up.</h3>
+ <h3>1. Session problem, fix. May use php version 7.1 up.</h3>
  <p>If use Php version 7.1, Need change code, at codeIgniter file.(session breaking problem.)</p>
- <p>Reference, this blog article, Link : <a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
+
  <br/>
  <h4>system/libraries/Session/Session.php -> make, //. </h4>
  <p>//     session_start();  //140 line.</p>
@@ -16,10 +16,10 @@
 <p>//    ini_set('session.hash_bits_per_character', 4);</p>
 <br/>
  <h4>/index.php -> add write(anyline),  session_start();</h4>
- 
+ <p>Reference, this blog article, Link : <a href="http://blog.naver.com/tt2t2am1118/221007391890">http://blog.naver.com/tt2t2am1118/221007391890</a></p>
  <br/>
  <h3>2. make session, database for example SQL-> MySql.</h3>
- <p> /application/config/config.php</p>
+ <h4>Check a file. /application/config/config.php</h4>
 <p> $config['sess_driver'] = 'database';</p>
 <p>$config['sess_cookie_name'] = 'ci_session';</p>
 <p>$config['sess_expiration'] = 7200;</p>
@@ -28,7 +28,7 @@
 <p>$config['sess_time_to_update'] = 300;</p>
 <p>$config['sess_regenerate_destroy'] = FALSE;</p>
 <br/>
-<h4>make a table</h4>
+<h4>Make a table</h4>
 <p>CREATE TABLE IF NOT EXISTS `ci_sessions` (</p>
 <p>        `id` varchar(40) NOT NULL,</p>
 <p>        `ip_address` varchar(45) NOT NULL,</p>
