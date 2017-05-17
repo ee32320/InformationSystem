@@ -46,7 +46,7 @@ for example, Information System for better workplace.
 <p>And use xampp Action, browser possible on.</p>
 <br/>
 <h4>5. If error or problem, create sql table, Check this file-> ReadME(setting.).md.</h4>
-
+<br/>
 
 <h4>developer another webSite: <a href="http://www.jcoop.xyz">www.jcoop.xyz</a></h4>
 <br/>
@@ -64,9 +64,8 @@ for example, Information System for better workplace.
 	<p>Code Licensed, <a href="https://github.com/ee32320/InformationSystem">Github</a>, <a href="https://github.com/ee32320/InformationSystem/blob/master/LICENSE">MIT</a></p>
 	<p>Docs Licensed, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
 <br/> 
-
 <h4>caution: use way, on web</h4>
 <p>Please, reference, ISO 27001 or https use.</p>
 <p>Personal information, be cafully handling on website(legal way(recommended), if use commerce this(https://github.com/ee32320/InformationSystem), so need certification website. Likely,  ISO 27001.</p>
-
-<h2>Thank you, for watching.</h2>
+<br/>
+<h1>Thank you, for watching.</h1>
