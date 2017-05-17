@@ -45,7 +45,7 @@ for example, Information System for better workplace.
 <p>$config['base_url'] = 'http://localhost/';</p>
 <p>And use xampp Action, browser possible on.</p>
 <br/>
-
+<h4>If error or problem,create sql table, Check this file-> ReadME(setting.).md.</h4>
 
 
 <h4>developer another webSite: <a href="http://www.jcoop.xyz">www.jcoop.xyz</a></h4>
