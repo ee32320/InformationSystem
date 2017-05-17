@@ -53,7 +53,7 @@
 <p>) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;</p>
 <br/>
 
-<h3>Thank you for watching, readme file.</h3>
+<h3>Thank you for watching, ReadME(setting) file.</h3>
 
  
  
