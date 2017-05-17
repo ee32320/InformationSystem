@@ -34,7 +34,7 @@
 <p>        `data` blob NOT NULL,</p>
 <p>        PRIMARY KEY (id),</p>
 <p>);</p>
-<h4>About, session. codeigniter menual reference:<a href="http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html">http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html</a></h4>
+<h4>About, session. codeigniter menual reference : <a href="http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html">http://www.ciboard.co.kr/user_guide/en/libraries/sessions.html</a></h4>
 <br/> 
 <h3>3. user_info table, database database for example SQL-> MySql</h3>
 <p>CREATE TABLE `user_info` (</p>
